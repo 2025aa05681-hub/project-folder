@@ -1,0 +1,2 @@
+# 4 Naive Bayes
+evaluate_model(GaussianNB(), "Naive Bayes")
