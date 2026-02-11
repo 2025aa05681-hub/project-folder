@@ -1,0 +1,2 @@
+# 3 KNN
+evaluate_model(KNeighborsClassifier(n_neighbors=5), "KNN")
