@@ -1,2 +1,0 @@
-# 1 Logistic Regression
-evaluate_model(LogisticRegression(), "Logistic Regression")
