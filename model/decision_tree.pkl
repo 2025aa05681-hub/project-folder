@@ -1,1 +1,2 @@
-
+# 2 Decision Tree
+evaluate_model(DecisionTreeClassifier(), "Decision Tree")
