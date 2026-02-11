@@ -13,7 +13,6 @@ uploaded_file = st.file_uploader("Upload CSV dataset", type=["csv"])
 if uploaded_file:
 df = pd.read_csv(uploaded_file)
 
-```
 if "target" not in df.columns:
     st.error("Dataset must contain 'target' column")
 else:
@@ -54,3 +53,4 @@ else:
 
     st.subheader("Confusion Matrix")
     st.write(confusion_matrix(y_test, y_pred))
+
