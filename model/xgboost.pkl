@@ -1,2 +1,0 @@
-# 6 XGBoost
-evaluate_model(XGBClassifier(use_label_encoder=False, eval_metric='logloss'), "XGBoost")
